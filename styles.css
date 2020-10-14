@@ -1,0 +1,68 @@
+#first-view{
+    background-image: url('nycview.jpg');
+    background-size: cover;
+    width: auto;
+    height: 400px;
+}
+#first-view h1{
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcyan;
+
+
+}
+#first-view p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcyan;
+}
+.navbar{
+    overflow: hidden;
+    background-color: black;
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 40px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color:gray;
+    color: black;
+}
+
+.dropdown-teams{
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+}
+.dropdown-teams a {
+    float: none;
+    color: cyan;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-teams{
+    display: block;
+}
