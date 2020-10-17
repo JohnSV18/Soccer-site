@@ -192,7 +192,6 @@
 .btn {
     border: 2px solid black;
     background-color:lightgreen;
-    /* color: black; */
     padding: 14px 28px;
     border-radius: 5px;
     font-size: 16px;
@@ -223,3 +222,27 @@
     flex-direction: row;
     justify-content: center;
   }
+  #contact-us{
+      background-color: black;
+  }
+  #email h3{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 5px;
+
+    }
+    #email p{
+        color: white;
+        display:flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
