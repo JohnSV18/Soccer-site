@@ -59,7 +59,7 @@
 .dropdown-teams{
     display: none;
     position: absolute;
-    background-color: grey;
+    background-color:black;
     min-width: 160px;
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0,2);
     z-index: 1;
@@ -67,7 +67,7 @@
 }
 .dropdown-teams a {
     float: none;
-    color: cyan;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -320,6 +320,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
   }
   #contact-us{
       background-color: black;
@@ -411,9 +412,26 @@
         background-size: cover;
         height: 1300px;
         /* opacity: 0.5 ; */
-        
-    
     }
+    #logo-back h1{
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-left: 100px;  
+        color:black;
+        background-color: white;
+        width: 300px;
+        border-radius: 5px;
+ }
+     
+     #logo-back h2{
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-left: 100px;
+        color:black;
+        background-color: white;
+        width: 300px;
+        border-radius: 5px;
+ }
     #overlap{
         display: flex;
         flex-direction: row;
@@ -421,7 +439,7 @@
         background-color:white;
         color: white;
         margin-left: 100px;
-        height: 500px;
+        height: 300px;
         width: 500px;
         border-radius: 5px;
         box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
@@ -434,14 +452,23 @@
         background-color:white;
         color: white;
         margin-left: 100px;
-        height: 500px;
+        height: 300px;
         width: 500px;
         border-radius: 5px;
         box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
     
     }
-    #stop{
-        opacity: 2.75;
+    #overlap p{
+        color: black;
+    }
+    #overlap h3{
+        color: black;
+    }
+    #overlap-bottom p{
+        color: black;
+    }
+    #overlap-bottom h3{
+        color: black;
     }
     /* shop.html from styles */
     input[type=text], select {
@@ -458,12 +485,13 @@
       
       input[type=submit] {
         width: 400px;
-        background-color: #4CAF50;
         color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
+        margin-left: 460px ;
         border: none;
-        border-radius: 4px;
+        background-color:lightgreen;
+        padding: 14px 28px;
+        border-radius: 5px;
+        font-size: 16px;
         cursor: pointer;
       }
       
@@ -475,5 +503,10 @@
           flex-direction: row;
           justify-content: center;
         
+      }
+      #form-button{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
       }
       
