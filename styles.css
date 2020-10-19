@@ -1,3 +1,4 @@
+/* Styles for the image above nav bar */
 #first-view{
     background-image: url('images/flushing-globe.jpg');
     background-size: cover;
@@ -19,6 +20,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightcyan;
 }
+/* styled for nav bar */
 .navbar{
     display: flex;
     flex-direction: row;
@@ -27,6 +29,7 @@
     background-color: black;
     border-radius: 5px;
 }
+/* styles for link in navbar */
 .navbar a{
     float: left;
     font-size: 16px;
@@ -36,6 +39,7 @@
     text-decoration: none;
     border-radius: 5px;
 }
+/* styles for drop down feature on 'teams' category */
 .dropdown{
     float: left;
     overflow: hidden;
@@ -51,6 +55,7 @@
     margin: 0;
     border-radius: 5px;
 }
+/* style for hovering over drop down */
 .navbar a:hover, .dropdown:hover .dropbtn{
     background-color:gray;
     color: black;
@@ -76,7 +81,7 @@
 .dropdown:hover .dropdown-teams{
     display: block;
 }
-
+/* styles on the home section where history of the team is explained */
 #home {
     background-color: black;
     margin: 0;
@@ -84,6 +89,7 @@
     border-radius: 5px;
     
 }
+/* styles on about us section explaing the teams purpose and goal */
 #about-us {
     background-color: white;
     background-size: cover;
@@ -122,6 +128,7 @@
     font-size: 30px;
 
 }
+/* styles or the additional section on general info of the soccer team */
 #more-about-us {
     background-color: black;
     background-size: cover;
@@ -161,6 +168,7 @@
     font-size: 30px;
 
 }
+/* styles for each slot thats in each section ---this is to keep the image and paragraph seperate */
 .slot{
     color: white;
     width: 400px;
@@ -251,6 +259,7 @@
     text-align: center;
     color: #eee;
 }
+/* styles for list in home section */
 #home ul{
     list-style: none;
 	margin: 0;
@@ -258,7 +267,7 @@
 	display: flex;
 	justify-content: center;
 }
-
+/* styles for shop section in the shop page */
 
 #shop h3{
     display: flex;
@@ -268,6 +277,7 @@
     margin: 0;
     
 }
+
 #shop{
     border-style: none;
     background-color: black;
@@ -321,7 +331,9 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
+    
   }
+  /* styles for the contact information in footer */
   #contact-us{
       background-color: black;
       border-radius: 5px;
@@ -389,6 +401,7 @@
         display: flex;
         justify-content: center;
     }
+    /* styles for directions button in location page  */
     #directions{
         display: flex;
         flex-direction: column;
@@ -407,11 +420,12 @@
         text-decoration-color: greenyellow;
         
     }
+    /* styles for teams pages where the backgtround is covered with the logo */
     #logo-back{
         background-image: url('images/circle-logo.jpg');
         background-size: cover;
         height: 1300px;
-        /* opacity: 0.5 ; */
+    
     }
     #logo-back h1{
         font-size: 30px;
@@ -432,6 +446,7 @@
         width: 300px;
         border-radius: 5px;
  }
+ /* styles for the list overlapping the logo background */
     #overlap{
         display: flex;
         flex-direction: row;
@@ -470,7 +485,7 @@
     #overlap-bottom h3{
         color: black;
     }
-    /* shop.html from styles */
+    /* shop.html form styles */
     input[type=text], select {
         width: 500px;
         padding: 12px 20px;
